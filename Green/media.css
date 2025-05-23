@@ -1,0 +1,179 @@
+@media (max-width: 1175px) {
+  .t-company {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    place-items: center;
+  }
+
+  .test-cards,
+  .con-container,
+  .fea-software,
+  .fea-calc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .fea-calc {
+    flex-direction: column-reverse;
+  }
+
+  .nav-ul li {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+}
+
+@media (max-width: 850px) {
+  .f-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 4rem;
+  }
+
+  .hero-section h1 {
+    font-size: 3rem;
+  }
+
+  .soft-con h2,
+  .fea-con h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .soft-con h4 {
+    font-size: 14px;
+  }
+
+  .star,
+  .star2,
+  .cal-cate {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cal-cate h4 {
+    font-size: 18px;
+  }
+
+  .cate2 {
+    margin-top: -5rem;
+  }
+
+  .t-company img {
+    max-width: 100px;
+    height: auto;
+  }
+}
+
+@media (max-width: 685px) {
+  .cont-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .big-inp input {
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    border-radius: 12px;
+  }
+
+  .t-card {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .hero-section h1,
+  .fea-con h1,
+  .soft-con h2,
+  .pric-con h2,
+  .test-con h2,
+  .tb-con h2,
+  .faq-con h2,
+  .con-contect h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .btns button:nth-child(2) {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .t-company {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .f-content {
+    margin-left: 12rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 30%;
+    margin-top: -3.5rem;
+    align-items: center;
+  }
+
+  .tb-btn,
+  .demo-btns {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .card,
+  .t-card {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .soft-con h2,
+  .fea-con h1,
+  .test-con h2,
+  .faq-con h2 {
+    font-size: 1.5rem;
+  }
+
+  .contect p,
+  .t-text p,
+  .tb-con p {
+    font-size: 14px;
+  }
+
+  .logo img {
+    height: 50px;
+    max-width: fit-content;
+  }
+  nav {
+    height: 12vh;
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0rem 0;
+    width: 90%;
+  }
+  .btns {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    gap: 1rem;
+  }
+}
